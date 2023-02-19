@@ -17,7 +17,8 @@ module.exports = {
         type: Sequelize.STRING
       },
       isActivated: {
-        type: Sequelize.BOOLEAN
+        type: Sequelize.BOOLEAN,
+        // defaultValue: false,
       },
       activationLink: {
         type: Sequelize.STRING
